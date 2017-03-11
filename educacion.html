@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <section>
+                <svg>
+                <image xlink:href="assets/img/OnMike.svg" width="200px" height="180px"></image>
+                </svg>
+            </section>
+        </header>
+        <section>
+            <h1>Hoja de vida</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="educacion.html">Educación</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+            </ul>
+        </section>
+        <section>
+            <h1>Estudios</h1>
+            <table border="1px">
+                <thead>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2012</td>
+                        <td>Coruniversitec</td>
+                        <td>Colombia</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>SENA</td>
+                        <td>Colombia</td>
+                        <td>Sí</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+        <h1>Agregar Estudios</h1>
+        <form method="post" action="educacion.html">
+            <label for="anio">Año</label>
+            <select id="anio" name="anio">
+            <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+            </select><br/>
+            <label id="institucion">Institución</label><input type="text" id="institucion" name="institucion" /><br/>
+            <label id="lugar">Lugar</label><input type="text" id="lugar" name="lugar" /><br/>
+            <label id="culmino">¿Culminó?</label>Sí
+            <input type="radio" value="si" /> No <input type="radio" value="no" />
+            <br/>
+            <input type="button" value="Enviar" />
+            
+            </form>
+        </section>
+        <footer>
+            <section>
+                <h3>Contactabilidad</h3>
+                <ul>
+                    <li>twitter: @dapanquevab</li>
+                    <li>Correo: daerb9011@gmail.com    </li>
+                    <li>Celular: 3187827631</li>
+                </ul>
+            </section>
+        </footer>
+    </body>
+</html>
